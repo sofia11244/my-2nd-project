@@ -22,18 +22,47 @@ body{
     font-style: normal;
 }
 
+
 .logo-link{
     color:#4D5AE5;
-
-}
-.logo-studio{
-    color:#2E2F42;
 }
 
-.logo-link:hover
-.logo-link:active{
+.logo-link:hover,
+.logo-link:focus{
     color:#404BBF;
 }
 .logo-link{
     text-decoration: none;
+}
+.logo-studio {
+    color: #2E2F42;
+}
+
+.main-nav,
+.address{
+    text-decoration: none;
+}
+
+.main-nav{
+    color:#2E2F42
+}
+.main-nav:hover{
+    color:#404BBF
+}
+
+
+
+.address{
+    color:#434455
+}
+
+.address:hover{
+    color:#404BBF 
+}
+
+.order-button{
+    background: #4D5AE5;
+}
+.order-button{
+    background: #404BBF;
 }
