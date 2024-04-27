@@ -26,6 +26,7 @@ body{
 
 
 .logo-link{
+    font-family: "Raleway", sans-serif;
     color:#4D5AE5;
     font-size:18px;
     line-height:1.17;
@@ -98,10 +99,13 @@ body{
     color: #ffffff;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     cursor: pointer;
     background-color: #404BBF;
 }
+
+
 
 .second-header{
     font-weight: 500;
@@ -115,6 +119,23 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
+}
+
+.third{
+    background-color: #f4f4fd;
+    
+}
+.third-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.third-article{
+    background-color: #FFFFFF;
 }
 
 .third-employee{
@@ -152,9 +173,11 @@ body{
 }
 
 .forth-text{
+    letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    
 }
 
 .footer{
@@ -162,12 +185,14 @@ body{
 
 }
 
-.footer-link{
+.footer-alt{
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4D5AE5;
+    text-decoration: none;
 }
 
 .footer-logo{
