@@ -34,13 +34,18 @@ body{
     text-transform: uppercase;
 }
 
-.logo-link:hover,
-.logo-link:focus{
+.logo-link:hover{
     color:#404BBF;
 }
+
+.logo-link:focus{
+    color: #404BBF;
+}
+
 .logo-link{
     text-decoration: none;
 }
+
 .logo-studio {
     color: #2E2F42;
 }
@@ -72,8 +77,12 @@ body{
     color:#434455;
 }
 
+.address:focus{
+    color:#404BBF
+}
+
 .address:hover{
-    color:#404BBF;
+    color:#404bbf;
 }
 
 
