@@ -46,13 +46,18 @@ body{
     text-decoration: none;
 }
 
-.logo-studio {
+.logo-span {
     color: #2E2F42;
 }
 
-.main-nav,
-.address{
-    text-decoration: none;
+.nav-list{
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4D5AE5
 }
 
 .main-nav{
@@ -60,31 +65,18 @@ body{
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;
-    
     color:#2E2F42
 }
-.main-nav:hover
+.main-nav:hover,
 .main-nav:focus{
     color:#404BBF;
 }
 
 
 
-.address{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style:normal;
-    color:#434455;
+.address {
+    text-decoration: none;
 }
-
-.address:focus{
-    color:#404BBF
-}
-
-.address:hover{
-    color:#404bbf;
-}
-
 
 .first-section{
     background-color: #2E2F42;
