@@ -34,6 +34,11 @@ body{
     color: #4D5AE5;
 }
 
+.logo-span {
+    color: #2E2F42;
+}
+
+
 .nav-item:hover{
     color:#404BBF;
 }
@@ -43,12 +48,10 @@ body{
 }
 
 .nav-item{
+    color:#2E2F42;
     text-decoration: none;
 }
 
-.logo-span {
-    color: #2E2F42;
-}
 
 .nav-list{
     font-family: "raleway", sans-serif;
@@ -67,12 +70,9 @@ body{
     letter-spacing: 0.02em;
     color:#2E2F42
 }
-.alt-nav:hover,
-.alt-nav:focus{
-    color:#404BBF;
-}
 
-.contacts{
+
+.address{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -80,12 +80,19 @@ body{
     text-decoration:none;
 }
 
-.contacts:hover{
-    color:#404BBF;
+.alt-address{
+    color: #434455;
 }
 
-.contacts:focus{
+.alt-address:hover{
     color:#404BBF;
+    cursor:pointer;
+
+}
+
+.alt-address:focus{
+    color:#404BBF;
+    cursor:pointer;
 }
 
 .first-section{
