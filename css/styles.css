@@ -76,8 +76,8 @@ body{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455
-    text-decoration: none;
+    color:#434455;
+    text-decoration:none;
 }
 
 .address:hover,
